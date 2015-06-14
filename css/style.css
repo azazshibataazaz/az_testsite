@@ -1,0 +1,33 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    background: #757D75;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+    }
+nav a{
+    text-decoration: none;
+    border: none;
+    color: currentColor;
+    border-radius: o;
+    padding: 8px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background: #fff;
+    color: currentColor;
+}
+.top {
+  background-image: url(../img/star.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
